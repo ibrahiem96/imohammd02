@@ -1,5 +1,4 @@
-# Masjid Al Muminun Funds Management
-# funds-timeseries
+# Personal Website
 
 ## Project setup
 ```
@@ -22,11 +21,7 @@ npm run lint
 ```
 
 ### Upcoming Features
-- Payment Processing
-- Venmo Link
-- Mission Statement
-- Gallery
-- About the Masjid
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
