@@ -10,6 +10,8 @@
         <h1>Programming</h1>
         <bar-chart></bar-chart>
       </div>
+    </div>
+    <div class="columns">
       <div class="column">
         <h1>CI/CD</h1>
         <bar-chart></bar-chart>
@@ -18,27 +20,27 @@
         <h1>Analytics</h1>
         <bar-chart></bar-chart>
       </div>
+    </div>
+    <div class="columns">
       <div class="column">
         <h1>Environments</h1>
         <bar-chart></bar-chart>
+      </div>
+      <div class="column">
+        <!-- <h1>Environments</h1> -->
+        <!-- <bar-chart></bar-chart> -->
       </div>
     </div>
   </section>
 </template>
 
 <script>
-// import LineChart from "@/components/UsageChart";
-import BarChart from "@/components/GoalChart";
-// import BubbleChart from "@/components/BubbleChart";
-// import Reactive from "@/components/Reactive";
+import BarChart from "@/components/SkillsChart";
 
 export default {
-  name: "FundsUsage",
+  name: "Skills",
   components: {
-    // LineChart
-    BarChart,
-    // BubbleChart,
-    // Reactive
+    BarChart
   }
 }
 </script>

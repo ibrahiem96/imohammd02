@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/Home'
-import FundsUsage from '@/views/FundsUsage'
-import FundsGoal from '@/views/FundsGoal'
-import FundsDistribution from '@/views/FundsDistribution'
+import Experience from '@/views/Experience'
+import Skills from '@/views/Skills'
+import Projects from '@/views/Projects'
 
 Vue.use(Router)
 
@@ -14,31 +14,31 @@ export default new Router({
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Home'
+        title: 'Ibrahiem Mohammad'
       }
     },
     {
       path: '/experience',
-      name: 'FundsGoal',
-      component: FundsGoal,
+      name: 'Experience',
+      component: Experience,
       meta: {
-        title: 'Ibrahiem M - Experience'
+        title: 'Experience - Ibrahiem M'
       }
     },
     {
       path: '/skills',
-      name: 'FundsUsage',
-      component: FundsUsage,
+      name: 'Skills',
+      component: Skills,
       meta: {
-        title: 'Ibrahiem M - Skills'
+        title: 'Skills - Ibrahiem M'
       }
     },
     {
       path: '/projects',
-      name: 'FundsDistribution',
-      component: FundsDistribution,
+      name: 'Projects',
+      component: Projects,
       meta: {
-        title: 'Ibrahiem M - Projects'
+        title: 'Projects - Ibrahiem M'
       }
     }
   ]
