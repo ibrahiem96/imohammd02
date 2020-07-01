@@ -8,44 +8,34 @@
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['Goal Status'],
+          labels: ['AWS', 'Kubernetes', 'Azure', 'Docker'],
           datasets: [
             {
-              label: 'Funds Raised',
-              backgroundColor: '#2CC45E',
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [3970]
-            },
-            {
-              label: 'Funds Remaining',
-              backgroundColor: '#E1E1E1',
-              pointBackgroundColor: 'white',
-              borderWidth: 1,
-              pointBorderColor: '#00000',
-              //Data to be represented on y-axis
-              data: [1230]
+              data: [8, 8, 5, 7]
             }
           ]
         },
         //Chart.js options that controls the appearance of the chart
         options: {
           tooltips: {
-            callbacks: {
-              title: function(){
-                return ''
+            // callbacks: {
+            //   title: function(){
+            //     return ''
+            //   },
+            //   beforeLabel: function(tooltipItem, data){
+            //     return data.datasets[tooltipItem.datasetIndex].label
 
-              },
-              beforeLabel: function(tooltipItem, data){
-                return data.datasets[tooltipItem.datasetIndex].label
-
-              },
-              label: function(tooltipItem) {
-                return '$' + Number(tooltipItem.yLabel)
-              }
-            }
+            //   },
+            //   label: function(tooltipItem) {
+            //     return '$' + Number(tooltipItem.yLabel)
+            //   }
+            // }
+            enabled: false
           },
           scales: {
             yAxes: [{
@@ -53,9 +43,9 @@
               ticks: {
                 beginAtZero: true,
                 // Include a dollar sign in the ticks
-                    callback: function(value) {
-                        return '$' + value;
-                    },
+                    // callback: function(value) {
+                    //     return '$' + value;
+                    // },
                 display: true
               },
               gridLines: {
@@ -70,7 +60,7 @@
             }]
           },
           legend: {
-            display: true
+            display: false
           },
           responsive: true,
           maintainAspectRatio: false
@@ -82,4 +72,5 @@
       this.renderChart(this.datacollection, this.options)
     }
   }
+
 </script>
