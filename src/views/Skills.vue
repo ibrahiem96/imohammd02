@@ -25,4 +25,8 @@ export default {
   width: 350px;
 }
 
+#outer-container {
+  margin-left: 10%;
+}
+
 </style>
