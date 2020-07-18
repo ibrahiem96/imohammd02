@@ -2,25 +2,45 @@
   <section class="container">
     <h1>Projects</h1>
     <div class="columns">
-      <!-- <div class="column">
-        <h3>Line Chart</h3>
-        <line-chart></line-chart>
-      </div> -->
       <div class="column">
-        <!-- <h3>Funds Distribution</h3> -->
-        <doughnut-chart></doughnut-chart>
+        <project-item></project-item>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import DoughnutChart from "@/components/ProjectItem";
+import ProjectItem from "@/components/ProjectItem";
 
 export default {
-  name: "Projects",
+  name: "Experience",
   components: {
-    DoughnutChart
+    ProjectItem
   }
 }
 </script>
+
+<style>
+
+#proj-outer-container {
+  text-align: left;
+}
+
+#proj-inner-container {
+  padding-bottom: 50px;
+}
+
+#proj-company {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#proj-title {
+  font-weight: bold;
+}
+
+#proj-content {
+
+}
+
+</style>

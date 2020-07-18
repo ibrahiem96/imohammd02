@@ -3,7 +3,6 @@
     <h1>Experience</h1>
     <div class="columns">
       <div class="column">
-        <!-- <h3>Funds Distribution</h3> -->
         <experience-item></experience-item>
       </div>
     </div>
@@ -20,3 +19,28 @@ export default {
   }
 }
 </script>
+
+<style>
+
+#job-outer-container {
+  text-align: left;
+}
+
+#job-inner-container {
+  padding-bottom: 50px;
+}
+
+#job-company {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#job-title {
+  font-weight: bold;
+}
+
+#job-content {
+
+}
+
+</style>

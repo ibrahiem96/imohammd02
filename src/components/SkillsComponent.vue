@@ -46,7 +46,7 @@ const cloud = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['AWS', 'Kubernetes', 'Docker', 'Azure' ,'Knative'],
+          labels: ['AWS', 'Kubernetes', 'Docker'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9", "#b9e8e5"],
@@ -54,7 +54,7 @@ const cloud = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [10, 9, 8, 6, 6]
+              data: [9, 9, 9]
             }
           ]
         },
@@ -92,6 +92,9 @@ const cloud = {
             }],
             xAxes: [ {
               stacked: true,
+              ticks: {
+                max: 10
+              },
               gridLines: {
                 display: true
               }
@@ -119,15 +122,15 @@ const programming = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['Python', 'Javascript', 'Java', 'HTML & CSS', 'Bash'],
+          labels: ['Python', 'Javascript', 'Java'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9", "#b9e8e5"],
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [9, 9, 8, 7, 7, 6]
+              data: [9, 8, 8]
             }
           ]
         },
@@ -165,6 +168,9 @@ const programming = {
             }],
             xAxes: [ {
               stacked: true,
+              ticks: {
+                max: 10
+              },
               gridLines: {
                 display: true
               }
@@ -190,15 +196,15 @@ const cicd = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['AWS CF', 'Bamboo', 'Chef', 'Ansible', 'Terraform'],
+          labels: ['AWS CF', 'Bamboo', 'Chef'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9", "#b9e8e5"],
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [10, 10, 7, 6, 4]
+              data: [10, 10, 6]
             }
           ]
         },
@@ -236,6 +242,9 @@ const cicd = {
             }],
             xAxes: [ {
               stacked: true,
+              ticks: {
+                max: 10
+              },
               gridLines: {
                 display: true
               }
@@ -259,15 +268,15 @@ const analytics = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['Datadog', 'AWS CW', 'PagerDuty', 'NewRelic' ,'ELK'],
+          labels: ['Datadog', 'AWS CW', 'PagerDuty'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9", "#b9e8e5"],
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [8, 8, 7, 5, 4]
+              data: [8, 8, 7]
             }
           ]
         },
@@ -305,6 +314,9 @@ const analytics = {
             }],
             xAxes: [ {
               stacked: true,
+              ticks: {
+                max: 10
+              },
               gridLines: {
                 display: true
               }
@@ -375,6 +387,9 @@ const environments = {
             }],
             xAxes: [ {
               stacked: true,
+              ticks: {
+                max: 10
+              },
               gridLines: {
                 display: true
               }
@@ -399,15 +414,15 @@ const frameworks = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['VueJS', 'NodeJS', 'Flask', 'FastAPI', 'Spring'],
+          labels: ['VueJS', 'Flask', 'FastAPI', 'Spring'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9", "#b9e8e5"],
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [8, 8, 7, 7, 5]
+              data: [7, 6, 6, 5]
             }
           ]
         },
@@ -445,6 +460,9 @@ const frameworks = {
             }],
             xAxes: [ {
               stacked: true,
+              ticks: {
+                max: 10
+              },  
               gridLines: {
                 display: true
               }
