@@ -13,24 +13,12 @@
 
 
 <script>
+  import experience from '../assets/experience.json'
   //Exporting this so it can be used in other components
   export default {
     data () {
       return {
-        items: [
-          {
-            company: 'Fitch Ratings',
-            title: 'Cloud Engineer',
-            years: 'Apr 2019 - Present',
-            content: 'AWS | Kubernetes | Docker '
-          },
-          {
-            company: 'Fitch Ratings',
-            title: 'Cloud Engineer',
-            years: 'Apr 2019 - Present',
-            content: 'AWS | Kubernetes | Docker '
-          }
-        ]
+        items: experience
       }
     },
     mounted () {

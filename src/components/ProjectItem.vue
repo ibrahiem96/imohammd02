@@ -7,30 +7,22 @@
       </h1>
       <h2 id="proj-title">{{ item.title }}</h2>
       <p id="proj-content">{{ item.content }}</p>
+      <p id="website" v-if="item.website">
+        <a v-bind:href="item.website">{{ item.websiteTitle }}</a>
+      </p>
     </div>
   </div>
 </template>
 
 
 <script>
-  //Exporting this so it can be used in other components
+  import projects from '../assets/projects.json'
+  //TODO: switch to appropriate icon
+  // Exporting this so it can be used in other components
   export default {
     data () {
       return {
-        items: [
-          {
-            company: 'Fitch Ratings',
-            title: 'Cloud Engineer',
-            years: 'Apr 2019 - Present',
-            content: 'AWS | Kubernetes | Docker '
-          },
-          {
-            company: 'Fitch Ratings',
-            title: 'Cloud Engineer',
-            years: 'Apr 2019 - Present',
-            content: 'AWS | Kubernetes | Docker '
-          }
-        ]
+        items: projects
       }
     },
     mounted () {
