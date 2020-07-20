@@ -12,7 +12,7 @@ Vue.use(window.VueCharts)
 //TODO: blog page
 //TODO: social media
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
   router,

@@ -15,9 +15,9 @@ import ExperienceItem from "@/components/ExperienceItem";
 export default {
   name: "Experience",
   components: {
-    ExperienceItem
-  }
-}
+    ExperienceItem,
+  },
+};
 </script>
 
 <style>
@@ -27,7 +27,7 @@ export default {
 }
 
 #job-inner-container {
-  padding-bottom: 50px;
+  padding-bottom: 2.5%;
 }
 
 #job-company {
@@ -39,8 +39,26 @@ export default {
   font-weight: bold;
 }
 
-#job-content {
 
+.moreJobsText {
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
+.rotate {
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.rotate.down {
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 </style>

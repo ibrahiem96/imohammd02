@@ -7,8 +7,32 @@
   },
   {
     "company": "Fitch Ratings",
-    "title": "Cloud Engineer",
-    "years": "Apr 2019 - Present",
+    "title": "Full Stack Engineer",
+    "years": "May 2017 - Mar 2019",
+    "content": "AWS | Kubernetes | Docker "
+  },
+  {
+    "company": "Private Cloud Consulting",
+    "title": "Founder",
+    "years": "May 2020 - Present",
+    "content": "AWS | Kubernetes | Docker "
+  },
+  {
+    "company": "UIC",
+    "title": "Web Developer - Intern",
+    "years": "May 2015 - Aug 2015",
+    "content": "AWS | Kubernetes | Docker "
+  },
+  {
+    "company": "PP",
+    "title": "Web Developer - Intern",
+    "years": "May 2015 - Aug 2015",
+    "content": "AWS | Kubernetes | Docker "
+  },
+  {
+    "company": "POOPOO",
+    "title": "Web Developer - Intern",
+    "years": "May 2015 - Aug 2015",
     "content": "AWS | Kubernetes | Docker "
   }
 ]
