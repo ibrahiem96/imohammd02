@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <h1>Skills</h1>
+    <h3>(1 = novice, 10 = expert)</h3>
     <div class="columns">
       <div class="column">
         <skills-chart></skills-chart>
