@@ -1,18 +1,24 @@
 [
   {
-    "company": "Fitch Ratings",
-    "title": "Cloud Engineer",
-    "years": "Apr 2019 - Present",
-    "content": "AWS | Kubernetes | Docker ",
-    "websiteTitle": "",
-    "website": ""
+    "company": "Funds Manager for Community Mosque",
+    "title": "Co - Founder",
+    "years": "May 2020 - Jun 2020",
+    "content": "Website for managing funds for a mosque project",
+    "websiteTitle": "Funds Management Website",
+    "website": "https://zimm.netlify.app/#/"
   },
   {
-    "company": "Fitch Ratings",
-    "title": "Cloud Engineer",
-    "years": "Apr 2019 - Present",
-    "content": "AWS | Kubernetes | Docker ",
-    "websiteTitle": "Google",
-    "website": "https://google.com"
+    "company": "SlackBot",
+    "years": "Jun 2017",
+    "content": "Chatbot for Slack that automates certain admin tasks",
+    "websiteTitle": "Source Code",
+    "website": "https://github.com/ibrahiem96/slybot"
+  },
+  {
+    "company": "Music Playlist App",
+    "years": "April 2016",
+    "content": "Android music playlist app",
+    "websiteTitle": "Source Code",
+    "website": "https://github.com/ibrahiem96/musicPlaylistApp"
   }
 ]

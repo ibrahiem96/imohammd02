@@ -2,16 +2,20 @@
   <div id="job-outer-container">
     <div id="job-inner-container" v-for="item in items" :key="item">
       <h1 id="job-company">
-        <i class="material-icons">cloud</i>
+        <i class="material-icons">work</i>
         {{ item.company }}
       </h1>
-      <h2 id="job-title">{{ item.title }}</h2>
-      <p id="job-content">{{ item.content }}</p>
+      <h2 id="job-title">{{ item.title }} | {{ item.years }}</h2>
+      <ul>
+        <li v-for="line in item.content" :key="line">
+          {{ line }}
+        </li>
+      </ul>
     </div>
 
     <h2>
       <i id="more" class="material-icons rotate" v-on:click="more()">add</i>
-      MORE
+      <i id="more" class="material-icons" v-on:click="more()">work</i>
     </h2>
 
     <div id="more-jobs-container">
@@ -22,11 +26,15 @@
         :key="item"
       >
         <h1 id="job-company">
-          <i class="material-icons">cloud</i>
+          <i class="material-icons">work</i>
           {{ item.company }}
         </h1>
-        <h2 id="job-title">{{ item.title }}</h2>
-        <p id="job-content">{{ item.content }}</p>
+        <h2 id="job-title">{{ item.title }} | {{ item.years }}</h2>
+        <ul>
+          <li v-for="line in item.content" :key="line">
+            {{ line }}
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -67,7 +75,7 @@ export default {
         document.querySelectorAll(".moreJobsText").forEach((i) => {
           i.style.opacity = 0;
         });
-        setTimeout(setNone, 2000)
+        setTimeout(setNone, 2000);
         this.isMoreOpen = false;
       }
     },

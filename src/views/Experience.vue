@@ -39,6 +39,9 @@ export default {
   font-weight: bold;
 }
 
+#more {
+  cursor: pointer;
+}
 
 .moreJobsText {
   opacity: 0;
@@ -60,5 +63,9 @@ export default {
   -moz-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+li {
+  list-style-type: square;
 }
 </style>
