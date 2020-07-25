@@ -18,7 +18,7 @@
         <a class="social-link" href="https://github.com/ibrahiem96/">
           <i class="fa fa-github fa-2x icon-3d"></i>
         </a>
-        <a class="social-link" href="https://github.com/ibrahiem96/">
+        <a class="social-link" href="https://www.linkedin.com/in/ibrahiem-mohammad/">
           <i class="fa fa-linkedin fa-2x icon-3d"></i>
         </a>
         <a class="social-link" href="https://instagram.com/ibrahiem96/">
