@@ -1,4 +1,5 @@
 # Personal Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c62d7c56-226d-496d-9eb7-3c2c5f8f1087/deploy-status)](https://app.netlify.com/sites/imohammd/deploys)
 
 ## Project setup
 ```
