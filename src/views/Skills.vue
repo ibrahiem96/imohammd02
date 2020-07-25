@@ -23,8 +23,10 @@ export default {
 <style>	
 
 #skills-chart {	
-  height: 150px;	
-  width: 350px;	
+  /* height: 150px;	
+  width: 350px;	 */
+  height: 75%;	
+  width: 70%;
 }	
 #outer-container {	
   margin-left: 10%;	
