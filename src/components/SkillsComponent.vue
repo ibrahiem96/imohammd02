@@ -199,7 +199,7 @@ const cicd = {
           labels: ['Bamboo', 'AWS CF', 'Chef', 'Terraform'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f", "#e8c3b9"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
