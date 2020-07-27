@@ -10,6 +10,7 @@
                 <h3>Ibrahiem Mohammad</h3>
                 <p>Cloud Services</p>
               </div>
+              <p> {{ welcome_blurb }} </p>
             </div>
           </li>
         </ul>
@@ -32,6 +33,8 @@
 <script>
 export default {
   name: "home",
+  welcome_blurb: "I am cloud engineer by trade. Always open to new and exciting opportunities for growth." +
+  "I have interests in fullstack engineering, UI/UX design, and fintech. In my free time you can find me enjoying literature, film, or nature"
 };
 </script>
 
