@@ -13,7 +13,10 @@
             </div>
           </li>
         </ul>
-        <p> I am cloud engineer by trade. Always open to new and exciting opportunities for growth. I have interests in the future of cloud services and architecture, and fintech. In my free time you can find me enjoying literature, film, or nature. </p>
+        <p><strong> I am a Cloud Engineer by trade.  
+          I have an interest in the future of cloud services, management, and architecture. I also find fintech and UI/UX design very interesting. 
+          In my free time I enjoy literature, film, and nature.
+          Always open to new and exciting opportunities.</strong> </p>
       </div>
       <div id="social-container">
         <a class="social-link" href="https://github.com/ibrahiem96/">
