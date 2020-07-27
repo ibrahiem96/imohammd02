@@ -10,10 +10,10 @@
                 <h3>Ibrahiem Mohammad</h3>
                 <p>Cloud Services</p>
               </div>
-              <p> {{ welcome_blurb }} </p>
             </div>
           </li>
         </ul>
+        <p> I am cloud engineer by trade. Always open to new and exciting opportunities for growth. I have interests in the future of cloud services and architecture, and fintech. In my free time you can find me enjoying literature, film, or nature. </p>
       </div>
       <div id="social-container">
         <a class="social-link" href="https://github.com/ibrahiem96/">
