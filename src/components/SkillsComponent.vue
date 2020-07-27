@@ -196,7 +196,7 @@ const cicd = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['AWS CF', 'Bamboo', 'Chef'],
+          labels: ['Bamboo', 'AWS CF', 'Chef', 'Terraform'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
@@ -204,7 +204,7 @@ const cicd = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [9, 10, 6]
+              data: [10, 9, 6, 5]
             }
           ]
         },
