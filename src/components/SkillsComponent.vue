@@ -54,7 +54,7 @@ const cloud = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [9, 9, 9]
+              data: [8, 8, 8]
             }
           ]
         },
@@ -204,7 +204,7 @@ const cicd = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [10, 10, 6]
+              data: [9, 10, 6]
             }
           ]
         },
