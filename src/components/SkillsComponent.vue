@@ -46,7 +46,7 @@ const cloud = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['AWS', 'Kubernetes', 'Docker'],
+          labels: ['Docker', 'AWS', 'Kubernetes', 'Azure'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9", "#b9e8e5"],
@@ -54,7 +54,7 @@ const cloud = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [8, 8, 8]
+              data: [4, 3, 2, 0.5]
             }
           ]
         },
@@ -93,7 +93,7 @@ const cloud = {
             xAxes: [ {
               stacked: true,
               ticks: {
-                max: 10
+                max: 5
               },
               gridLines: {
                 display: true
@@ -130,7 +130,7 @@ const programming = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [9, 8, 8]
+              data: [5, 4, 3]
             }
           ]
         },
@@ -169,7 +169,7 @@ const programming = {
             xAxes: [ {
               stacked: true,
               ticks: {
-                max: 10
+                max: 5
               },
               gridLines: {
                 display: true
@@ -204,7 +204,7 @@ const cicd = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [10, 9, 6, 5]
+              data: [3, 2, 2, 1]
             }
           ]
         },
@@ -243,7 +243,7 @@ const cicd = {
             xAxes: [ {
               stacked: true,
               ticks: {
-                max: 10
+                max: 5
               },
               gridLines: {
                 display: true
@@ -268,15 +268,15 @@ const analytics = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['Datadog', 'AWS CW', 'PagerDuty'],
+          labels: ['AWS CW', 'PagerDuty', 'Datadog', 'NewRelic'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f", "#e8c3b9"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [8, 8, 7]
+              data: [3, 3, 2, 1]
             }
           ]
         },
@@ -315,7 +315,7 @@ const analytics = {
             xAxes: [ {
               stacked: true,
               ticks: {
-                max: 10
+                max: 5
               },
               gridLines: {
                 display: true
@@ -349,7 +349,7 @@ const environments = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [8, 7]
+              data: [6, 3]
             }
           ]
         },
@@ -388,7 +388,7 @@ const environments = {
             xAxes: [ {
               stacked: true,
               ticks: {
-                max: 10
+                max: 5
               },
               gridLines: {
                 display: true
@@ -414,7 +414,7 @@ const frameworks = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['VueJS', 'Flask', 'FastAPI', 'Spring'],
+          labels: ['Flask', 'VueJS', 'FastAPI', 'Spring'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9"],
@@ -422,7 +422,7 @@ const frameworks = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [7, 6, 6, 5]
+              data: [3, 2, 1, 1]
             }
           ]
         },
@@ -461,7 +461,7 @@ const frameworks = {
             xAxes: [ {
               stacked: true,
               ticks: {
-                max: 10
+                max: 5
               },  
               gridLines: {
                 display: true
