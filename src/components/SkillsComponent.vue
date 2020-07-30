@@ -61,29 +61,13 @@ const cloud = {
         //Chart.js options that controls the appearance of the chart
         options: {
           tooltips: {
-            // callbacks: {
-            //   title: function(){
-            //     return ''
-            //   },
-            //   beforeLabel: function(tooltipItem, data){
-            //     return data.datasets[tooltipItem.datasetIndex].label
-
-            //   },
-            //   label: function(tooltipItem) {
-            //     return '$' + Number(tooltipItem.yLabel)
-            //   }
-            // }
-            enabled: false
+            enabled: true
           },
           scales: {
             yAxes: [{
               stacked: true,
               ticks: {
                 beginAtZero: true,
-                // Include a dollar sign in the ticks
-                    // callback: function(value) {
-                    //     return '$' + value;
-                    // },
                 display: true
               },
               gridLines: {
@@ -149,7 +133,7 @@ const programming = {
             //     return '$' + Number(tooltipItem.yLabel)
             //   }
             // }
-            enabled: false
+            enabled: true
           },
           scales: {
             yAxes: [{
@@ -223,7 +207,7 @@ const cicd = {
             //     return '$' + Number(tooltipItem.yLabel)
             //   }
             // }
-            enabled: false
+            enabled: true
           },
           scales: {
             yAxes: [{
@@ -295,7 +279,7 @@ const analytics = {
             //     return '$' + Number(tooltipItem.yLabel)
             //   }
             // }
-            enabled: false
+            enabled: true
           },
           scales: {
             yAxes: [{
@@ -368,7 +352,7 @@ const environments = {
             //     return '$' + Number(tooltipItem.yLabel)
             //   }
             // }
-            enabled: false
+            enabled: true
           },
           scales: {
             yAxes: [{
@@ -441,7 +425,7 @@ const frameworks = {
             //     return '$' + Number(tooltipItem.yLabel)
             //   }
             // }
-            enabled: false
+            enabled: true
           },
           scales: {
             yAxes: [{
