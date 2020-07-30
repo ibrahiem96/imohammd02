@@ -188,7 +188,7 @@ const cicd = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [3, 2, 2, 1]
+              data: [3, 2, 2, 0.5]
             }
           ]
         },
