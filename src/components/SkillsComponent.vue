@@ -54,7 +54,7 @@ const cloud = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [4, 3, 2, 0.5]
+              data: [4, 4, 3, 0.5]
             }
           ]
         },
