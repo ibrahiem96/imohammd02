@@ -1,8 +1,18 @@
 [
   {
+    "company": "Flexera",
+    "title": "Cloud Engineer",
+    "years": "Jan 2021 - Present",
+    "content": [
+      "Implement AWS SecurityHub on production accounts to meet CIS Security Benchmarks",
+      "Design secrets management solution using AWS Param Store and Hashicorp Vault; improved user adoption of Kubernetes by improving secrets management",
+      "Increase user adoption of Kubernetes clusters by simplifying cluster standup/teardown process by way of Terraform modules"
+    ]
+  },
+  {
     "company": "Fitch Ratings",
     "title": "Cloud Engineer",
-    "years": "Apr 2019 - Present",
+    "years": "Apr 2019 - Dec 2020",
     "content": [
       "Transition app teams from traditional infrastructure to containers with Kubernetes on AWS EKS",
       "Architect & implement deployment strategies in EKS for app teams such as A/B Testing, Blue-Green deployments, Canary Testing",
