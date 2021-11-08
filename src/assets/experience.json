@@ -4,8 +4,10 @@
     "title": "Cloud Engineer",
     "years": "Jan 2021 - Present",
     "content": [
-      "Implement AWS SecurityHub on production accounts to meet CIS Security Benchmarks",
-      "Design secrets management solution using AWS Param Store and Hashicorp Vault; improved user adoption of Kubernetes by improving secrets management",
+      "Improving AWS account security benchmark by 90% with AWS SecurityHub",
+      "Reduce deployment cost by shifting teams to self-hosted Github runners",
+      "Design secrets management, storage, and injection solution for Kubernetes deployments",
+      "Automate Terraform management of multiple clusters, minimizing setup and configuration modification time",
       "Increase user adoption of Kubernetes clusters by simplifying cluster standup/teardown process by way of Terraform modules"
     ]
   },
