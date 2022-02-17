@@ -1,53 +1,44 @@
 [
   {
     "company": "Flexera",
-    "title": "Cloud Engineer",
+    "title": "Cloud Architect",
     "years": "Jan 2021 - Present",
     "content": [
       "Improving AWS account security benchmark by 90% with AWS SecurityHub",
-      "Reduce deployment cost by shifting teams to self-hosted Github runners",
-      "Design secrets management, storage, and injection solution for Kubernetes deployments",
-      "Automate Terraform management of multiple clusters, minimizing setup and configuration modification time",
-      "Increase user adoption of Kubernetes clusters by simplifying cluster standup/teardown process by way of Terraform modules"
+      "Increase user adoption of Kubernetes clusters by simplifying cluster standup/teardown process by way of Terraform modules",
+      "Infrastructure design, management, and automation with Terraform (clusters, databases, vpcs, storage, IAM, and more)",
+      "Implementing CI/CD pipelines for Go microservices using Github Actions, AWS, and Terraform",
+      "Design secure secrets management, storage, and injection solution for applications in Kubernetes",
+      "Implement central observability for metrics and logs using AWS Managed Prometheus"
     ]
   },
   {
     "company": "Fitch Ratings",
-    "title": "Cloud Engineer",
+    "title": "DevOps / Cloud Engineer",
     "years": "Apr 2019 - Dec 2020",
     "content": [
-      "Transition app teams from traditional infrastructure to containers with Kubernetes on AWS EKS",
+      "Transition teams from VM hosted micro services to containers with Kubernetes on AWS EKS. Increased adoption of containerization by 40% including main data services, website, and auxiliary data transformation and publishing services",
+      "Create templates and guides for devs to understand SDLC of an application in Kubernetes",
+      "Create and manage multiple Kubernetes clusters, managing hybrid clusters",
       "Architect & implement deployment strategies in EKS for app teams such as A/B Testing, Blue-Green deployments, Canary Testing",
       "Design & Manage cloud solutions in AWS targeting performance, availability, and security",
-      "Advise developers on best practices for cloud",
-      "Hands-on IaC experience with AWS CDK & Cloudformation, Chef, and Ansible",
-      "Research new cloud tools to improve efficiency and user adoption",
-      "Automate cost management and alerting with AWS Cloudwatch and Lambda",
+      "Using Infrastucture-as-code tools to build and manage K8s clusters, other AWS services, config management (AWS CDK & Cloudformation and Sceptre)",
+      "Research new cloud tools (Knative, Istio, AppMesh, Garden.io) to improve efficiency and user adoption",
       "Create log, metric, and alerting pipelines from cluster to SumoLogic, Datadog, and PagerDuty",
       "Build CI/CD pipelines for developers with Atlassian Bamboo & Bitbucket",
       "Create & Manage DNS records, Load balancers, & Ingress Controllers"
     ]
   },
   {
-    "company": "Private Cloud Consulting",
-    "title": "Founder",
-    "years": "May 2020 - Present",
-    "content": [
-      "Assess infrastructure model(s), security, and resources being used",
-      "Create optimization plan to reduce cloud infrastructure cost",
-      "Improve security practices and IAM model",
-      "Advise for best cloud practices"
-    ]
-  },
-  {
     "company": "Fitch Ratings",
-    "title": "Full Stack Engineer",
+    "title": "Fullstack / SRE Engineer",
     "years": "May 2017 - Mar 2019",
     "content": [
-      "Drive up usage for company intranet by 30% with website redesign. New functionality included search UI redesign and optimization, navigation, adding likes/unlikes, employee profiles, and more",
-      "Decrease admin tasks by developing a Slackbot in Python (hosted on AWS Lambda). Slackbot automated admin responsibilities such as approving users for Slack, sending email invites, answering FAQ's, and more",
-      "Automate report processing job with serverless batch processing (AWS Lambda) that transformed thousands of rows of data into a static visual dashboard with meaningful insights",
-      "Extending company employee information API to live-update Intranet information about employees (active status, position, phone, etc)"
+      "Designing and developing new functionality for the Intranet, including search layout and optimization, cross-site subnavigation, and adding likes/unlikes, employee profile, and more. This improved engagement on the Intranet by 40%",
+      "Writing a Microsoft Teams QnA chatbot through Azure Bot Framework that reduced admin work by 30% by automating FAQs and basic service requests",
+      "Designed and implemented a serverless batch processing job that transformed thousands of rows of data into a static visual dashboard. This was implemented in AWS Lambda, using Java to invoke a subprocess that ran R code to collect and transform the data and create the dashboard. [Java, R, HTML, AWS Lambda]",
+      "Extending company employee information API to live-update Intranet information about employees (active status, position, phone, etc)",
+      "Azure Chatbot using LINQ for Microsoft Teams"
     ]
   },
   {
