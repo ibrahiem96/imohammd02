@@ -64,7 +64,7 @@ const cloud = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [5, 1, 0.5]
+              data: [5, 1, 0.2]
             }
           ]
         },
@@ -122,7 +122,7 @@ const containers = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [4, 4, 1, 0.5]
+              data: [5, 5, 1, 0.5]
             }
           ]
         },
@@ -393,15 +393,15 @@ const security = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['Crowdstrike', 'Qualys', 'Hashicorp Vault'],
+          labels: ['Crowdstrike', 'Hashicorp Vault'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f"],
+              backgroundColor: ["#3e95cd", "#3cba9f"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [1, 1, 1]
+              data: [1, 1]
             }
           ]
         },
@@ -547,7 +547,7 @@ const frameworks = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [3, 3, 1, 1]
+              data: [3, 1, 1, 1]
             }
           ]
         },
