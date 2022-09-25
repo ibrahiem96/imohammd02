@@ -56,7 +56,7 @@ const cloud = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['AWS', 'GCP', 'Azure',],
+          labels: ['AWS', 'GCP'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
@@ -64,7 +64,7 @@ const cloud = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [5, 1, 0.2]
+              data: [5, 1]
             }
           ]
         },
