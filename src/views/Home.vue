@@ -13,8 +13,8 @@
             </div>
           </li>
         </ul>
-        <p><strong> I am a Cloud Engineer by trade.  
-          I have an interest in the future of cloud services, management, and architecture. I also find fintech and UI/UX design very interesting. 
+        <p><strong> I am a Software Engineer by trade.  
+          I have an interest in the future of automating cloud operations, and designing software architecture. I also find fintech and UI/UX design very interesting. 
           In my free time I enjoy literature, film, and nature.
           Always open to new and exciting opportunities.</strong> </p>
       </div>
