@@ -167,7 +167,6 @@ const containers = {
   }
 
 
-
 const programming = {
     extends: HorizontalBar,
     data () {
@@ -248,7 +247,7 @@ const infrastructure = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['AWS CF', 'Terraform', 'Spinnaker'],
+          labels: ['AWS CF', 'Terraform', 'TerraformCDK'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
@@ -256,7 +255,7 @@ const infrastructure = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [3, 2, 0.5]
+              data: [2, 2, 0.5]
             }
           ]
         },
@@ -314,13 +313,14 @@ const infrastructure = {
       //renderChart function renders the chart with the datacollection and options object.
       this.renderChart(this.datacollection, this.options)
     }}
+
 const observability = {
     extends: HorizontalBar,
     data () {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['AWS CW', 'PagerDuty', 'Datadog', 'Prometheus'],
+          labels: ['Prom/Grafana', 'Datadog', 'EFK', 'OpenTelemetry'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f", "#e8c3b9"],
@@ -328,7 +328,7 @@ const observability = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [3, 3, 2, 1]
+              data: [3, 2, 1, 0.5]
             }
           ]
         },
@@ -393,15 +393,15 @@ const security = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['Crowdstrike', 'Hashicorp Vault'],
+          labels: ['Prisma Cloud', 'Hashicorp Vault', 'Crowdstrike', 'Devo'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#3cba9f"],
+              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f", "#e8c3b9"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [1, 1]
+              data: [1, 1, 1, 1]
             }
           ]
         },
@@ -466,15 +466,15 @@ const cicd = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['Atlassian Bamboo', 'Github Actions'],
+          labels: ['Github Actions', 'Azure DevOps', 'Atlassian Bamboo'],
           datasets: [
             {
-              backgroundColor: ["#3e95cd", "#8e5ea2"],
+              backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f"],
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [3, 1.5]
+              data: [2, 1, 2]
             }
           ]
         },
@@ -539,7 +539,7 @@ const frameworks = {
       return {
         datacollection: {
           //Data to be represented on x-axis
-          labels: ['VueJS', 'Flask', 'FastAPI', 'Spring'],
+          labels: ['VueJS', 'React', 'FastAPI', 'Spring'],
           datasets: [
             {
               backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9"],
@@ -547,7 +547,7 @@ const frameworks = {
               borderWidth: 1,
               pointBorderColor: '#00000',
               //Data to be represented on y-axis
-              data: [3, 1, 1, 1]
+              data: [2, 1, 1, 1]
             }
           ]
         },
